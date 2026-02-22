@@ -1,0 +1,16 @@
+filters:
+  and:
+    - '!file.name.contains("Template")'
+    - categories.contains(link("Linux"))
+views:
+  - type: table
+    name: Docs
+    filters:
+      and:
+        - categories.contains(link("Docs"))
+        - '!file.name.contains("Template")'
+    order:
+      - file.name
+      - created
+      - tags
+      - categories

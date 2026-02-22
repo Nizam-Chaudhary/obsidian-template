@@ -1,0 +1,53 @@
+filters:
+  and:
+    - '!file.name.contains("Template")'
+    - categories.contains(link("Linux"))
+views:
+  - type: table
+    name: Linux
+    order:
+      - file.name
+      - created
+      - tags
+    sort: []
+  - type: table
+    name: Cheatsheets
+    filters:
+      and:
+        - file.tags.contains("cheatsheet")
+        - '!file.name.contains("Template")'
+    order:
+      - file.name
+      - created
+      - tags
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 196
+  - type: table
+    name: Commands
+    filters:
+      and:
+        - '!file.name.containsAny("Template")'
+        - file.tags.contains("Command")
+    order:
+      - file.name
+      - created
+      - tags
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Kubernetes
+    filters:
+      and:
+        - '!file.name.containsAny("Template")'
+        - file.tags.contains("kubernetes")
+    order:
+      - file.name
+      - created
+      - tags
+    sort:
+      - property: file.name
+        direction: ASC
