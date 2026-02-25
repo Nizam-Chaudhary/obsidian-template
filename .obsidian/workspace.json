@@ -4,24 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "8bdfecb712182dbd",
+        "id": "91d76b40c2a9c358",
         "type": "tabs",
         "children": [
           {
-            "id": "88c2f28e3ab30d75",
+            "id": "ba07ef69220f2551",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "TaskNotes/Views/tasks-default.base",
+                "viewName": "All Tasks"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "tasknotes-simple",
+              "title": "tasks-default"
+            }
+          },
+          {
+            "id": "2360c309b14ebb67",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Pomodoro"
+            }
+          },
+          {
+            "id": "f6c9b651c22291dc",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/kanban-default.base",
+                "viewName": "Kanban Board"
+              },
+              "icon": "tasknotes-simple",
+              "title": "kanban-default"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,23 +190,49 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": false
     }
   },
-  "active": "88c2f28e3ab30d75",
+  "active": "f6c9b651c22291dc",
   "lastOpenFiles": [
+    "TaskNotes/Tasks/Learn Obsidian.md",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Tasks/Another task.md",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Tasks/Drawing 2026-02-26 00.46.41.excalidraw.md",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Tasks",
+    "Categories/Docs.md",
+    "TaskNotes/Views",
+    "TaskNotes",
+    "Excalidraw/Drawing 2026-02-26 00.26.11.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Invert colors.svg",
+    "Excalidraw/Scripts/Downloaded/Invert colors.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Daily/2026-02-25.md",
+    "Templates/Project Template.md",
+    "README.md",
     "Notes/2026-02-22 1646.md",
     "Untitled.md",
     "Notes/Kitty Cheatsheet.md",
     "Daily/2026-02-22.md",
     "Daily/2023-09-30.md",
     "Daily/2023-09-12.md",
-    "README.md",
     "Notes/Writing Markdown.md",
     "Notes/Minimal Theme.md",
     "Categories/Linux.md",
-    "Templates/Bases/Clippings.base",
-    "Templates/Bases/Albums.base",
     "Notes/2023-09-12 Meeting with Steph.md",
     "Categories/Trips.md",
     "Categories/Projects.md",
@@ -191,23 +240,6 @@
     "Categories/Product usage analysis.md",
     "Categories/Movies.md",
     "Categories/Meetings.md",
-    "Categories/Games.md",
-    "Categories/Albums.md",
-    "Notes/2023 Japan Trip.md",
-    "Categories",
-    "Notes",
-    "2026 Goals & Focus Areas.md",
-    "Categories/Board games.md",
-    "Categories/Clippings.md",
-    "Categories/Books.md",
-    "Categories/Companies.md",
-    "Categories/Docs.md",
-    "Untitled.base",
-    "Templates/Bases/Docs.base",
-    "Templates/Bases/Linux.base",
-    "Templates/Bases/Journal.base",
-    "Templates/Bases/Map.base",
-    "Templates/Bases/Everything.base",
     "Untitled.canvas",
     "Attachments/out-of-control.jpg"
   ]

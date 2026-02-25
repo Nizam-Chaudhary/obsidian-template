@@ -1,7 +1,8 @@
 # obsidian
 # .obsidian/appearance.json
 # .obsidian/hotkeys.json
-# .obsidian/workspace.json
+.obsidian/workspace.json
+.obsidian/mobile-workspace.json
 .obsidian/themes
 .obsidian/plugins
 # .obsidian/community-plugins.json
