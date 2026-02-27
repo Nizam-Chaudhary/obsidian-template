@@ -3,5 +3,7 @@
   "format-with-prettier",
   "obsidian-git",
   "obsidian-excalidraw-plugin",
-  "tasknotes"
+  "tasknotes",
+  "periodic-notes",
+  "templater-obsidian"
 ]

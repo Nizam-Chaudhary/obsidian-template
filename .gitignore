@@ -1,12 +1,14 @@
-# obsidian
-# .obsidian/appearance.json
-# .obsidian/hotkeys.json
+# workspace files
 .obsidian/workspace.json
 .obsidian/mobile-workspace.json
-.obsidian/themes
-.obsidian/plugins
-# .obsidian/community-plugins.json
-# .obsidian/core-plugins-migration.json
 
-# Exclude macOS Finder (System Explorer) View States
+# themes
+.obsidian/themes
+
+# plugins content
+.obsidian/plugins/*/*.js
+.obsidian/plugins/*/*.css
+.obsidian/plugins/*/manifest.json
+
+# macOS
 .DS_Store

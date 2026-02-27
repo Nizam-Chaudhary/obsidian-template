@@ -68,3 +68,5 @@ Kitty has different layouts (Tall, Fat, Grid, etc.) for arranging windows.
 
 - **Reload Config:** `Ctrl` + `Shift` + `F5`
 - **Edit Config File:** `Ctrl` + `Shift` + `F2`
+
+[[test]]

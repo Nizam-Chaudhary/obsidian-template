@@ -1,5 +1,9 @@
 {
   "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "showLineNumber": false,
+  "tabSize": 4
 }

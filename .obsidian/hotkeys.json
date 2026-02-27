@@ -8,15 +8,6 @@
       "key": "I"
     }
   ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
   "zk-prefixer": [
     {
       "modifiers": [
@@ -45,5 +36,23 @@
       "key": "T"
     }
   ],
-  "workspace:undo-close-pane": []
+  "workspace:undo-close-pane": [],
+  "periodic-notes:open-daily-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "periodic-notes:open-monthly-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ]
 }

@@ -4,47 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "91d76b40c2a9c358",
+        "id": "d1e7261b1c855fc8",
         "type": "tabs",
         "children": [
           {
-            "id": "ba07ef69220f2551",
+            "id": "3611d77354d30df7",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "split-diff-view",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
-                "viewName": "All Tasks"
+                "aFile": ".obsidian/appearance.json",
+                "bFile": ".obsidian/appearance.json",
+                "aRef": ""
               },
-              "icon": "tasknotes-simple",
-              "title": "tasks-default"
-            }
-          },
-          {
-            "id": "2360c309b14ebb67",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-pomodoro-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Pomodoro"
-            }
-          },
-          {
-            "id": "f6c9b651c22291dc",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/kanban-default.base",
-                "viewName": "Kanban Board"
-              },
-              "icon": "tasknotes-simple",
-              "title": "kanban-default"
+              "icon": "diff",
+              "title": "Diff: appearance.json  (Working Tree)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -199,18 +177,22 @@
       "tasknotes:Open kanban board": false,
       "tasknotes:Open pomodoro": false,
       "tasknotes:Open pomodoro stats": false,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "f6c9b651c22291dc",
+  "active": "3611d77354d30df7",
   "lastOpenFiles": [
+    "Notes/Kitty Cheatsheet.md",
+    "Notes/test.md",
+    "Notes/Untitled.md",
+    "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Tasks/Learn Obsidian.md",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Tasks/Another task.md",
     "TaskNotes/Views/mini-calendar-default.base",
-    "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Tasks/Drawing 2026-02-26 00.46.41.excalidraw.md",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Tasks",
@@ -226,7 +208,6 @@
     "README.md",
     "Notes/2026-02-22 1646.md",
     "Untitled.md",
-    "Notes/Kitty Cheatsheet.md",
     "Daily/2026-02-22.md",
     "Daily/2023-09-30.md",
     "Daily/2023-09-12.md",
@@ -239,7 +220,6 @@
     "Categories/Products.md",
     "Categories/Product usage analysis.md",
     "Categories/Movies.md",
-    "Categories/Meetings.md",
     "Untitled.canvas",
     "Attachments/out-of-control.jpg"
   ]
